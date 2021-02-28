@@ -63,9 +63,8 @@
 		480EF06225D6C47A009CCF34 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				480EF06525D6C47A009CCF34 /* HospitalStaffsApp.swift */,
-				480EF06625D6C47A009CCF34 /* ContentView.swift */,
-				480EF06725D6C47A009CCF34 /* Persistence.swift */,
+				481E38DB25EBEE3C00E5D11E /* Model */,
+				481E38DA25EBEDB400E5D11E /* View */,
 				480EF06825D6C47C009CCF34 /* Assets.xcassets */,
 				480EF06325D6C47A009CCF34 /* HospitalStaffs.xcdatamodeld */,
 			);
@@ -96,6 +95,23 @@
 				480EF07825D6C47C009CCF34 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		481E38DA25EBEDB400E5D11E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				480EF06625D6C47A009CCF34 /* ContentView.swift */,
+				480EF06525D6C47A009CCF34 /* HospitalStaffsApp.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		481E38DB25EBEE3C00E5D11E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				480EF06725D6C47A009CCF34 /* Persistence.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

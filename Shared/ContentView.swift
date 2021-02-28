@@ -9,6 +9,16 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    var body: some View {
+        VStack {
+            Text("hello world")
+            DefaultContent()
+        }
+        
+    }
+}
+
+struct DefaultContent: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
