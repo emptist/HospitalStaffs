@@ -17,6 +17,10 @@
 		480EF08025D6C47C009CCF34 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480EF06725D6C47A009CCF34 /* Persistence.swift */; };
 		480EF08125D6C47C009CCF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480EF06825D6C47C009CCF34 /* Assets.xcassets */; };
 		480EF08225D6C47C009CCF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480EF06825D6C47C009CCF34 /* Assets.xcassets */; };
+		481E38DD25EBEEAA00E5D11E /* DefaultContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481E38DC25EBEEAA00E5D11E /* DefaultContent.swift */; };
+		481E38DE25EBEEAA00E5D11E /* DefaultContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481E38DC25EBEEAA00E5D11E /* DefaultContent.swift */; };
+		481E38E625EBF24F00E5D11E /* StaffAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481E38E525EBF24F00E5D11E /* StaffAttributes.swift */; };
+		481E38E725EBF24F00E5D11E /* StaffAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481E38E525EBF24F00E5D11E /* StaffAttributes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,8 @@
 		480EF07525D6C47C009CCF34 /* HospitalStaffs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HospitalStaffs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		480EF07725D6C47C009CCF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		480EF07825D6C47C009CCF34 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		481E38DC25EBEEAA00E5D11E /* DefaultContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultContent.swift; sourceTree = "<group>"; };
+		481E38E525EBF24F00E5D11E /* StaffAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffAttributes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +69,9 @@
 		480EF06225D6C47A009CCF34 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				481E38DB25EBEE3C00E5D11E /* Model */,
 				481E38DA25EBEDB400E5D11E /* View */,
+				481E38E325EBEF5100E5D11E /* View Model */,
+				481E38DB25EBEE3C00E5D11E /* Model */,
 				480EF06825D6C47C009CCF34 /* Assets.xcassets */,
 				480EF06325D6C47A009CCF34 /* HospitalStaffs.xcdatamodeld */,
 			);
@@ -100,8 +107,9 @@
 		481E38DA25EBEDB400E5D11E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				480EF06625D6C47A009CCF34 /* ContentView.swift */,
 				480EF06525D6C47A009CCF34 /* HospitalStaffsApp.swift */,
+				480EF06625D6C47A009CCF34 /* ContentView.swift */,
+				481E38DC25EBEEAA00E5D11E /* DefaultContent.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -110,8 +118,16 @@
 			isa = PBXGroup;
 			children = (
 				480EF06725D6C47A009CCF34 /* Persistence.swift */,
+				481E38E525EBF24F00E5D11E /* StaffAttributes.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		481E38E325EBEF5100E5D11E /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,9 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481E38E625EBF24F00E5D11E /* StaffAttributes.swift in Sources */,
 				480EF07B25D6C47C009CCF34 /* HospitalStaffsApp.swift in Sources */,
 				480EF07F25D6C47C009CCF34 /* Persistence.swift in Sources */,
 				480EF07925D6C47C009CCF34 /* HospitalStaffs.xcdatamodeld in Sources */,
+				481E38DD25EBEEAA00E5D11E /* DefaultContent.swift in Sources */,
 				480EF07D25D6C47C009CCF34 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,9 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481E38E725EBF24F00E5D11E /* StaffAttributes.swift in Sources */,
 				480EF07C25D6C47C009CCF34 /* HospitalStaffsApp.swift in Sources */,
 				480EF08025D6C47C009CCF34 /* Persistence.swift in Sources */,
 				480EF07A25D6C47C009CCF34 /* HospitalStaffs.xcdatamodeld in Sources */,
+				481E38DE25EBEEAA00E5D11E /* DefaultContent.swift in Sources */,
 				480EF07E25D6C47C009CCF34 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
