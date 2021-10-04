@@ -10,14 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            Text("Side Bar")
+            Sidebar()
             Text("content")
         }
     }
 }
 
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct Sidebar: View {
+    var body: some View {
+        Text("Side Bar")
     }
 }

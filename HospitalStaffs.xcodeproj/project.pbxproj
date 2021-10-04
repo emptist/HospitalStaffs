@@ -44,6 +44,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48637EF8270AB7840076CF3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48637EF9270AB7980076CF3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		48B4FBC626EE42F100C024A8 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +71,8 @@
 		48B4FBCB26EE42F100C024A8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				48637EF9270AB7980076CF3D /* Views */,
+				48637EF8270AB7840076CF3D /* Model */,
 				48B4FBCC26EE42F100C024A8 /* HospitalStaffsApp.swift */,
 				48B4FBCD26EE42F100C024A8 /* ContentView.swift */,
 				48B4FBCE26EE42F300C024A8 /* Assets.xcassets */,
